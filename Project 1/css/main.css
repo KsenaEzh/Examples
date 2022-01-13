@@ -1,0 +1,65 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #ff1722;
+	background: rgb(0,0,0);
+
+}
+
+div, p, span, a {
+	box-sizing: border-box;
+}
+
+h1, h2 {
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size: 20px;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	display: flex;
+
+}
+
+.header {
+	margin: 100px 0;
+}
+
+.btn {
+	text-decoration: none;
+	color: #ff1722;
+	padding: 19px 0px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	transition: all 0.5s ease;
+}
+
+#name {
+	margin-left: 100px;
+}
+
+#job {
+	margin-right: 100px;
+	margin-left: auto;
+}
+
+.btn:hover {
+	color: #000;
+	-webkit-text-shadow: 0 0 50px #ff1722;
+	-moz-text-shadow: 0 0 50px #ff1722;
+	text-shadow: 0 0 50px #ff1722;
+}
+
+.btn:active {
+	color: #000;
+	-webkit-text-shadow: 0 0 0px #000;
+	-moz-text-shadow: 0 0 0px #000;
+	text-shadow: 0 0 0px #000;
+}
