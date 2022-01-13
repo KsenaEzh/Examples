@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>GROWTH</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="javascript.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:900|Open+Sans&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<header id="header" class="header">
+		<div class="container">
+			<img src="img/logo.svg" alt="logo">
+			<div class="cover">
+				<div onscroll="circleLighting()" class="circle">
+					<h1 class="title">GROWTH</h1>
+					<p class="text">grow with us</p>
+					<a href="#email" class="btn">Узнать больше</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section id="email" class="email">
+		<div class="container">
+			<h2>Grow with us</h2>
+			<h3>Подпишитесь на нашу рассылку</h3>
+			<form method="post" class="form">
+				<input class="input" type="text" name="name" placeholder="Введите свое имя" required>
+				<input class="input" type="email" name="email" placeholder="Введите свой E-mail" required>
+				<input type="submit" class="btn btn-form" value="Подписаться">
+			</form>
+			<div id="result"></div>
+		</div>
+	</section>
+	<footer id="footer" class="footer">
+		<div class="container">
+			<p>Все права защищены</p>
+		</div>
+	</footer>
+</body>
+</html>
