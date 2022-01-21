@@ -1,0 +1,267 @@
+@media screen and (orientation: portrait) {
+	.header {
+		padding-top: 50px !important;
+	}
+
+	.header p {
+		text-align: right !important;
+	}
+
+	.container {
+		width: 90% !important;
+	}
+
+	.header h3 {
+		padding-top: 15vh !important;
+	}
+}
+
+@media screen and (max-width: 725px) {
+	h3 {
+		padding-top: 80px !important;
+	}
+	.logo {
+		display: none !important;
+	}
+	nav {
+		margin-right: auto !important;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	h1 {
+		font-size: 50px !important;
+	}
+	h2 {
+		font-size: 20px !important;
+	}
+	h3 {
+		font-size: 30px !important;
+	}
+	.header p {
+		font-size: 16px !important;
+	}
+	.materials {
+		display: block !important;
+	}
+	.card {
+		margin: 25px auto !important;
+	}
+	input {
+		width: 85% !important;
+		margin: 25px auto !important;
+	}
+	#bikini_bottom {
+		display: block !important;
+	}
+	li {
+		display: block !important;
+		margin: 20px auto !important;
+		text-align: center !important;
+	}
+	nav {
+		display: block !important;
+	}
+}
+
+body {
+	background: #350c2e;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+	color: #fff;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h3 {
+	margin: 0;
+	font-family: 'Cormorant SC', serif;
+	letter-spacing: 0.1em;
+}
+
+h2, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+h3, h4, h5 {
+	text-align: center;
+}
+
+.container {
+	width: 78%;
+	margin: 0 auto;
+}
+
+.header {
+	background: url("https://images.pexels.com/photos/3527778/pexels-photo-3527778.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat;
+	height: 100vh;
+	width: 100%;
+  	background-size: cover;
+  	padding-top: 60vh;
+}
+
+hr {
+	border: none;
+	background-color: #fff;
+	color: #fff;
+	height: 2px;
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+
+#h__underline {
+	display: flex;
+	margin-right: auto;
+	margin-left: 10px;
+	margin-bottom: 100px;
+}
+
+h1 {
+	font-size: 90px;
+}
+
+h2 {
+	font-size: 25px;
+	color: #cbb2d2;
+}
+
+h3 {
+	padding-top: 120px;
+	font-size: 40px;
+}
+
+h4 {
+	padding-top: 380px;
+	font-size: 20px;
+}
+
+.materials {
+	display: flex;
+}
+
+.card {
+	width: 300px;
+	height: 500px;
+	margin-bottom: 100px;
+	box-shadow: 0px 5px 20px #170c1a;
+	transition: all 0.5s ease;
+}
+
+.card:hover {
+	width: 375px;
+	height: 625px;
+}
+
+#oil {
+	background: url(https://images.pexels.com/photos/1109352/pexels-photo-1109352.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	margin-right: auto;
+}
+
+#aquarell {
+	background: url(https://images.pexels.com/photos/3418400/pexels-photo-3418400.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+#gouache {
+	background: url(https://images.pexels.com/photos/1292241/pexels-photo-1292241.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	margin-left: auto;
+}
+
+.header p {
+	font-size: 20px;
+}
+
+.email {
+	background: #170c1a;
+	padding-bottom: 120px;
+}
+
+.input {
+	width: 474px;
+	background: #350c2e;
+	border: 1px solid #5b1341;
+	color: #984556;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+	height: 54px;
+	padding-left: 38px;
+	margin: 50px auto;
+	display: block;
+}
+
+.btn {
+	text-decoration: none;
+	border: 1px solid #fff;
+	color: #fff;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	padding: 19px 50px;
+	background: #170c1a;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #350c2e;
+	border: 1px solid #5b1341;
+}
+
+p {
+	text-align: center;
+}
+
+.text {
+	width: 70%;
+	margin: 0 auto;
+}
+
+#bikini_bottom {
+	margin-top: 70px;
+	margin-bottom: 70px;
+	display: flex;
+}
+
+.logo {
+	display: inline-block;
+	font-family: 'Cormorant SC', serif;
+	letter-spacing: 0.1em;
+	font-size: 40px;
+	margin: 0;
+	margin-top: 5px;
+}
+
+nav {
+	display: inline-block;
+	margin-left: auto;
+}
+
+li {
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
