@@ -46,6 +46,7 @@
 	}
 	.card {
 		margin: 25px auto !important;
+		display: block;
 	}
 	input {
 		width: 85% !important;
